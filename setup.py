@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="retrotv-log",
-    version="v0.0.1-alpha",
+    name="retrotv_log",
+    version="v0.0.2-alpha",
     description="로깅을 위한 패키지",
     author="RetroTV",
     author_email="yjj8353@gmail.com",
