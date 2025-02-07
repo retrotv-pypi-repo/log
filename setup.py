@@ -9,7 +9,7 @@ setup(
     url="https://github.com/retrotv-pypi-repo/log",
     install_requires=[],
     packages=find_packages(exclude=[]),
-    keywords=["retrotv", "RetroTV", "yjj8353", "file", "File", "pypi"],
+    keywords=["retrotv", "RetroTV", "yjj8353", "log", "Log", "logging", "Logging", "pypi"],
     python_requires=">=3",
     package_data={},
     zip_safe=False,
