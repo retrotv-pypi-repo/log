@@ -1,9 +1,16 @@
 from setuptools import setup, find_packages
 
+
+with open('README.md', encoding='utf-8') as f:
+    long_description = f.read()
+
+
 setup(
     name="retrotv_log",
-    version="v0.0.2-alpha",
+    version="v0.0.3-alpha",
     description="로깅을 위한 패키지",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="RetroTV",
     author_email="yjj8353@gmail.com",
     url="https://github.com/retrotv-pypi-repo/log",
