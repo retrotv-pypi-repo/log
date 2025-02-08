@@ -7,7 +7,7 @@ with open('README.md', encoding='utf-8') as f:
 
 setup(
     name="retrotv_log",
-    version="v0.0.3-alpha",
+    version="v0.0.4-alpha",
     description="로깅을 위한 패키지",
     long_description=long_description,
     long_description_content_type="text/markdown",

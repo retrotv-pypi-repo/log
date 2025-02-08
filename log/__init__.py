@@ -61,6 +61,24 @@ class Log(object):
 
         return self.logger
 
+    def is_notset_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.NOTSET)
+
+    def is_debug_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.DEBUG)
+
+    def is_info_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.INFO)
+
+    def is_warning_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.WARN)
+
+    def is_error_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.ERROR)
+
+    def is_critical_enabled(self) -> bool:
+        return self.logger.isEnabledFor(logging.CRITICAL)
+
     def __not_use_filename(self) -> None:
         if self.filename is not None:
             self.logger.setLevel(logging.WARN)
